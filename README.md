@@ -16,7 +16,7 @@ This repo is just the catalog (the `marketplace.json`). The skills themselves li
 From Claude Code (or the Cowork plugin manager):
 
 ```
-/plugin marketplace add chase-malcom/sf-skills-plugin
+/plugin marketplace add ccmalcom/sf-skills-plugin
 /plugin install sf-skills@sf-skills-plugin
 ```
 
