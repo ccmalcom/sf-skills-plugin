@@ -12,7 +12,7 @@
       "name": "sf-skills",
       "description": "All Salesforce platform skills from forcedotcom/sf-skills: Apex, LWC, metadata, Flows, OmniStudio, Data Cloud, Agentforce, UI bundles, integrations, diagrams, and more. Sourced directly from the public upstream repo so it stays current as Salesforce adds or changes skills.",
       "source": {
-        "source": "git",
+        "source": "url",
         "url": "https://github.com/forcedotcom/sf-skills.git",
         "ref": "main"
       },
