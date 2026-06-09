@@ -1,0 +1,14 @@
+# macOS
+.DS_Store
+
+# Editor / IDE
+.vscode/
+.idea/
+*.swp
+
+# Node (in case tooling is added later)
+node_modules/
+npm-debug.log*
+
+# Local Claude plugin cache (should never be committed)
+.claude/plugins/cache/

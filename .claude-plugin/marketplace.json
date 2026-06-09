@@ -1,0 +1,41 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "sf-skills-plugin",
+  "version": "1.0.0",
+  "description": "Packages Salesforce's public forcedotcom/sf-skills repository as a single auto-updating plugin.",
+  "owner": {
+    "name": "Chase Malcom",
+    "email": "chase.malcom@cloudmasonry.com"
+  },
+  "plugins": [
+    {
+      "name": "sf-skills",
+      "description": "All Salesforce platform skills from forcedotcom/sf-skills: Apex, LWC, metadata, Flows, OmniStudio, Data Cloud, Agentforce, UI bundles, integrations, diagrams, and more. Sourced directly from the public upstream repo so it stays current as Salesforce adds or changes skills.",
+      "source": {
+        "source": "github",
+        "repo": "forcedotcom/sf-skills",
+        "ref": "main"
+      },
+      "version": "1.0.0",
+      "author": {
+        "name": "Salesforce",
+        "url": "https://github.com/forcedotcom/sf-skills"
+      },
+      "homepage": "https://github.com/forcedotcom/sf-skills",
+      "repository": "https://github.com/forcedotcom/sf-skills",
+      "license": "See repo LICENSE.txt (BSD-3-Clause)",
+      "category": "development",
+      "keywords": [
+        "salesforce",
+        "apex",
+        "lwc",
+        "metadata",
+        "flow",
+        "omnistudio",
+        "data-cloud",
+        "agentforce",
+        "ui-bundle"
+      ]
+    }
+  ]
+}
